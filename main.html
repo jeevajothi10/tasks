@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Elements Demo</title>
+</head>
+<body>
+
+  <h1>HTML Elements Implementation</h1>
+
+
+  <h2>1. Anchor Tag</h2>
+  <p>
+    Visit <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a> for more information.
+  </p>
+
+  <h2>2. Image</h2>
+  <img src="https://tse1.mm.bing.net/th/id/OIP.9d5ObyXt1ASWEaMqKZTlYAHaEo?r=0&rs=1&pid=ImgDetMain" alt="Sample Image" width="300">
+
+
+  <h2>3. Audio</h2>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  
+  <h2>4. Video</h2>
+  <video width="320" height="240" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  
+  <h2>5. Iframe</h2>
+  <iframe src="https://www.wikipedia.org" width="400" height="300" title="Wikipedia"></iframe>
+  
+  <h2>6. Table</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Jeeva</td>
+      <td>20</td>
+      <td>India</td>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>22</td>
+      <td>USA</td>
+    </tr>
+  </table>
+  <h2>7. Form</h2>
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>8. Description List</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>A markup language for creating web pages.</dd>
+    <dt>CSS</dt>
+    <dd>A style sheet language used for describing the look of a document.</dd>
+    <dt>JavaScript</dt>
+    <dd>A programming language that adds interactivity to websites.</dd>
+  </dl>
+
+</body>
+</html>
